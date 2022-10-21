@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+  	<meta charset="UTF-8" />
+  	<link rel = "shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/favicon.ico"/>
+    <link rel="stylesheet" type="text/css"  href="menu.css" />
+    <link rel="stylesheet" type="text/css"  href="style.css" />
+  	<title>CONTATO - IFSP</title>
+  </head>
+  
+  <body>
+  
+    <body>
+    <header>
+		  <object width = 100% height = 300px data="menu.html"> </object>
+	  </header>
+    
+    <main>
+      <h1>MANDE UMA MENSAGEM</h1>
+      <form id="infoCtt">
+        <fieldset>
+          <label><br>Nome Completo </label><br>
+          <input type="text" name="nome" id="nome"><br>
+          <label><br>E-mail</label><br>
+          <input type="email" name="email" id="mail"><br>
+          <label><br>Celular</label><br>
+          <input type="text" name="celular" id="cel" placeholder= "(99) 99999-99999"> <br>
+          <br>
+            <fieldset>
+              <legend>Assunto</legend>
+              <select name="assunto">
+                <option value="default">-- Selecione --</option>
+                <option value="rec">Reclamação</option>
+                <option value="sugst">Sugestão</option> 
+              </select>
+              <br><label><textarea placeholder= "Digite sua mensagem..." id="txt"></textarea></label>
+            </fieldset>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+          <legend>Opções de Resposta</legend>
+          <input type="checkbox" name="re" id="tel"> Telefone<br>
+          <input type="checkbox" name="re" id="email"> E-Mail<br>
+        </fieldset>      
+        <input type="submit" value="Enviar" id="envioBtn">
+      </form>
+    </main>
+
+    <footer>
+      <object width=100% height=150px data="rodape.html"> </object>
+    </footer>
+  
+  </body>
+</html>

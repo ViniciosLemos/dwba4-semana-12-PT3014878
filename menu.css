@@ -1,0 +1,52 @@
+
+.dp-menu ul {
+  background-color: #35363a;
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: -5px;
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+  color: white;
+}
+
+.dp-menu ul li a:hover {
+    background-color: red;
+  transform: scale(1.1);
+}
+
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 300px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+#sobre {
+ float:right; 
+}
+.img-header {
+  background-color: #00872b;
+  width: 100%;
+}
+
